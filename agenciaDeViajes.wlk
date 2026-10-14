@@ -35,7 +35,7 @@ rol = nuevoRol
     method unRol
     {
         const rolesValidos = [Guia, Asistente logistico, Acompañante]
-        if (rolesValidos(unRol){
+        if (not rolesValidos(){
 
         })
     }
