@@ -4,7 +4,7 @@ class packsNacionales {
     var beneficiosEspeciales
     const cordinadorACargo
     var provinciaDestino
-    var listaActividades    
+    var listaActividades = []
     }
 
 class packsInternacionales 
@@ -16,7 +16,8 @@ class packsInternacionales
     var escalas
     method esLugarDeInteres() 
 }
-
+ 
+ 
 
 class cordinador{
     var viajesRealizados ()
@@ -26,6 +27,16 @@ class cordinador{
 
     method cambiarRol(nuevoRol)
     {
-
+self.validarRol(nuevoRol)
+rol = nuevoRol
     }
+    
+}
+
+
+class beneficiosEspeciales
+{
+    var tipo
+    const costo
+    var estaVigente
 }
