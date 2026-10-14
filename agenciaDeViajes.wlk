@@ -27,10 +27,17 @@ class cordinador{
 
     method cambiarRol(nuevoRol)
     {
-self.validarRol(nuevoRol)
+self.unRol(nuevoRol)
 rol = nuevoRol
     }
-    
+    method unRol
+    {
+        const rolesValidos = [Guia, Asistente logistico, Acompañante]
+        if (rolesValidos(unRol){
+
+        })
+    }
+    method rol() = rol
 }
 
 
