@@ -1,23 +1,25 @@
-class packsNacionales {
-    var dias 
-    var precioBase
-    var beneficiosEspeciales
-    const cordinadorACargo
-    var provinciaDestino
-    var listaActividades = []
-    }
-
-class packsInternacionales 
+class pack
 {
-    var dias
+    var duracionDias
     var precioBase
-    var beneficiosEspeciales
-    var paisDestino
-    var escalas
-    method esLugarDeInteres() 
+    var  beneficiosEspeciales = [] 
+    const cordinador
+
+    method valorFinal
 }
- 
- 
+
+class packNacionales inherits pack
+{
+ var provinciaDestino
+ var lista Actividades = []
+}
+
+class packInternacionales inherits pack
+{
+    var paisDestino
+    var cantEscalas
+    lugarDeInteres
+}
 
 class cordinador{
     var viajesRealizados ()
